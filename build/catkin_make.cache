@@ -1,0 +1,2 @@
+multi_robot_scenario:p3dx/PioneerModel/p3dx_control:p3dx/PioneerModel/p3dx_description:p3dx/PioneerModel/p3dx_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/jov/tesi_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jov/tesi_ws/install -G Unix Makefiles
