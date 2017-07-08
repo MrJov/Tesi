@@ -2,8 +2,8 @@
 #define OPERATOR_H
 
 #define NODE_NAME     "operator"
-#define COMMAND_TOPIC "cmd"
-#define CONTROL_TOPIC "cmd_vel"
+#define COMMAND_TOPIC "r1/cmd"
+#define CONTROL_TOPIC "r1/cmd_vel"
 #define ROUTE_TOPIC   "route"
 #define PLAN_TOPIC    "desired"
 #define LUT_RESOLUTION 100

@@ -1,2 +1,2 @@
-multi_robot_scenario:p3dx/PioneerModel/p3dx_control:p3dx/PioneerModel/p3dx_description:p3dx/PioneerModel/p3dx_gazebo
+multi_robot_scenario:navigation_2d/nav2d:navigation_2d/nav2d_exploration:navigation_2d/nav2d_karto:navigation_2d/nav2d_localizer:navigation_2d/nav2d_msgs:navigation_2d/nav2d_navigator:navigation_2d/nav2d_operator:navigation_2d/nav2d_remote:navigation_2d/nav2d_tutorials:p3dx/PioneerModel/p3dx_control:p3dx/PioneerModel/p3dx_description:p3dx/PioneerModel/p3dx_gazebo
 -DCATKIN_DEVEL_PREFIX=/home/jov/tesi_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jov/tesi_ws/install -G Unix Makefiles

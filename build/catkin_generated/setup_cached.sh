@@ -8,3 +8,4 @@
 
 # modified environment variables
 export PWD="/home/jov/tesi_ws/build"
+export PYTHONPATH="/home/jov/tesi_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"

@@ -78,6 +78,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 			<odometryTopic>odom</odometryTopic>
 			<odometryFrame>odom</odometryFrame>
 			<robotBaseFrame>base_link</robotBaseFrame>
+			<legacyMode>false</legacyMode>
 		</plugin>
 	</gazebo>
 
