@@ -1,0 +1,8 @@
+prefix=/home/jov/tesi_ws/install
+
+Name: nav2d_files
+Description: Description of nav2d_files
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jov/tesi_ws/install/lib 
+Requires: 

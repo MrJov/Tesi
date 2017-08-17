@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/jov/tesi_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c6890/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c6890.dir/build.make CMakeFiles/cmTC_c6890.dir/build
-make[1]: ingresso nella directory "/home/jov/tesi_ws/build/CMakeFiles/CMakeTmp"
-Building C object CMakeFiles/cmTC_c6890.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_c6890.dir/CheckSymbolExists.c.o   -c /home/jov/tesi_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_c6890
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6890.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_c6890.dir/CheckSymbolExists.c.o  -o cmTC_c6890 -rdynamic 
-CMakeFiles/cmTC_c6890.dir/CheckSymbolExists.c.o: nella funzione "main":
-CheckSymbolExists.c:(.text+0x16): riferimento non definito a "pthread_create"
+Run Build Command:"/usr/bin/make" "cmTC_8b7db/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b7db.dir/build.make CMakeFiles/cmTC_8b7db.dir/build
+make[1]: Entering directory '/home/jov/tesi_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b7db.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_8b7db.dir/CheckSymbolExists.c.o   -c /home/jov/tesi_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8b7db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b7db.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_8b7db.dir/CheckSymbolExists.c.o  -o cmTC_8b7db -rdynamic 
+CMakeFiles/cmTC_8b7db.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_c6890.dir/build.make:97: set di istruzioni per l'obiettivo "cmTC_c6890" non riuscito
-make[1]: *** [cmTC_c6890] Errore 1
-make[1]: uscita dalla directory "/home/jov/tesi_ws/build/CMakeFiles/CMakeTmp"
-Makefile:126: set di istruzioni per l'obiettivo "cmTC_c6890/fast" non riuscito
-make: *** [cmTC_c6890/fast] Errore 2
+CMakeFiles/cmTC_8b7db.dir/build.make:97: recipe for target 'cmTC_8b7db' failed
+make[1]: *** [cmTC_8b7db] Error 1
+make[1]: Leaving directory '/home/jov/tesi_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8b7db/fast' failed
+make: *** [cmTC_8b7db/fast] Error 2
 
 File /home/jov/tesi_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/jov/tesi_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_83776/fast"
-/usr/bin/make -f CMakeFiles/cmTC_83776.dir/build.make CMakeFiles/cmTC_83776.dir/build
-make[1]: ingresso nella directory "/home/jov/tesi_ws/build/CMakeFiles/CMakeTmp"
-Building C object CMakeFiles/cmTC_83776.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_83776.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_83776
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83776.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_83776.dir/CheckFunctionExists.c.o  -o cmTC_83776 -rdynamic -lpthreads 
-/usr/bin/ld: impossibile trovare -lpthreads
+Run Build Command:"/usr/bin/make" "cmTC_9f874/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9f874.dir/build.make CMakeFiles/cmTC_9f874.dir/build
+make[1]: Entering directory '/home/jov/tesi_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f874.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9f874.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9f874
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f874.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_9f874.dir/CheckFunctionExists.c.o  -o cmTC_9f874 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_83776.dir/build.make:97: set di istruzioni per l'obiettivo "cmTC_83776" non riuscito
-make[1]: *** [cmTC_83776] Errore 1
-make[1]: uscita dalla directory "/home/jov/tesi_ws/build/CMakeFiles/CMakeTmp"
-Makefile:126: set di istruzioni per l'obiettivo "cmTC_83776/fast" non riuscito
-make: *** [cmTC_83776/fast] Errore 2
+CMakeFiles/cmTC_9f874.dir/build.make:97: recipe for target 'cmTC_9f874' failed
+make[1]: *** [cmTC_9f874] Error 1
+make[1]: Leaving directory '/home/jov/tesi_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9f874/fast' failed
+make: *** [cmTC_9f874/fast] Error 2
 
 
