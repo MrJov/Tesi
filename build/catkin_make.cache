@@ -1,2 +1,2 @@
-nav2d_files:p3dx_control:p3dx_description:p3dx_gazebo:simulation_worlds
+hector_navigation/hector_costmap:hector_navigation/hector_exploration_controller:hector_navigation/hector_exploration_node:hector_navigation/hector_exploration_planner:hector_navigation/hector_path_follower:multi_robot_scenario:nav2d_files:p3dx_control:p3dx_description:p3dx_gazebo
 -DCATKIN_DEVEL_PREFIX=/home/jov/tesi_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jov/tesi_ws/install -G Unix Makefiles

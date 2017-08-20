@@ -30,7 +30,7 @@
 	<node name="Mapper" pkg="nav2d_karto" type="mapper">
 		<!-- <remap from="scan" to="base_scan"/> -->
 		<rosparam file="$(find nav2d_files)/param/mapper.yaml"/>
-	</node>
+	</node>-->
 
 	<!-- Start the Navigator to move the robot autonomously -->
 	<node name="Navigator" pkg="nav2d_navigator" type="navigator">
@@ -40,10 +40,6 @@
 	<node name="GetMap" pkg="nav2d_navigator" type="get_map_client" />
 	<node name="Explore" pkg="nav2d_navigator" type="explore_client" />
 	<node name="SetGoal" pkg="nav2d_navigator" type="set_goal_client" />
-
-	<!-- Start the joystick-driver and remote-controller for operation-->
-	<node name="Joystick" pkg="joy" type="joy_node" />
-	<node name="Remote" pkg="nav2d_remote" type="remote_joy" />
 
 	<!-- Load the URDF into the ROS Parameter Server -->
 	<param name="robot_description"
@@ -63,6 +59,6 @@
 	<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"></node>
 
 	<!-- RVIZ to view the visualization -->
-	<node name="RVIZ" pkg="rviz" type="rviz" args=" -d $(find nav2d_files)/param/tutorial1.rviz" />
+	<node name="RVIZ" pkg="rviz" type="rviz" args=" -d $(find nav2d_files)/param/tutorial3.rviz" />
 
 </launch>

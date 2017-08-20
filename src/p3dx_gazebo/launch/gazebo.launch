@@ -7,6 +7,7 @@
 	<arg name="gui" default="true" />
 	<arg name="headless" default="false" />
 	<arg name="debug" default="false" />
+	<rosparam file="$(find nav2d_files)/param/ros.yaml"/>
 
 	<!-- We resume the logic in empty_world.launch, changing only the name of 
 		the world to be launched -->
@@ -27,6 +28,33 @@
 		a URDF robot -->
 	<node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model"
 		respawn="false" output="screen" args="-urdf -model p3dx -param robot_description" />
+
+
+	<!-- Start the Operator to control the simulated robot -->
+	<node name="Operator" pkg="nav2d_operator" type="operator" >
+		<!-- <remap from="scan" to="base_scan"/> -->
+		<rosparam file="$(find nav2d_files)/param/operator.yaml"/>
+		<rosparam file="$(find nav2d_files)/param/costmap.yaml" ns="local_map" />
+	</node>
+
+	<!-- Start Mapper to genreate map from laser scans -->
+	<node name="Mapper" pkg="nav2d_karto" type="mapper">
+		<!-- <remap from="scan" to="base_scan"/> -->
+		<rosparam file="$(find nav2d_files)/param/mapper.yaml"/>
+	</node>
+
+	<!-- Start the Navigator to move the robot autonomously -->
+	<node name="Navigator" pkg="nav2d_navigator" type="navigator">
+		<rosparam file="$(find nav2d_files)/param/navigator.yaml"/>
+	</node>
+
+	<node name="GetMap" pkg="nav2d_navigator" type="get_map_client" />
+	<node name="Explore" pkg="nav2d_navigator" type="explore_client" />
+	<node name="SetGoal" pkg="nav2d_navigator" type="set_goal_client" />
+
+	<!-- RVIZ to view the visualization -->
+	<node name="RVIZ" pkg="rviz" type="rviz" args=" -d $(find nav2d_files)/param/tutorial3.rviz" />
+
 
 	<!-- ros_control p3rd launch file -->
 	<!-- <include file="$(find p3dx_control)/launch/control.launch" /> -->

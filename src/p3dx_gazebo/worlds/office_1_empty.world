@@ -52,7 +52,7 @@
           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
+              <name>Gazebo/Yellow</name>
             </script>
           </material>
         </visual>
@@ -115,7 +115,7 @@
           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
+              <name>Gazebo/Red</name>
             </script>
           </material>
           <cast_shadows>0</cast_shadows>
@@ -139,7 +139,7 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='office_1_empty'>
+      <model name='office_1'>
         <pose frame=''>-1.93808 -0.459319 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='walls'>

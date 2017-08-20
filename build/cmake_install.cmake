@@ -118,10 +118,15 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/jov/tesi_ws/build/gtest/cmake_install.cmake")
   include("/home/jov/tesi_ws/build/nav2d_files/cmake_install.cmake")
-  include("/home/jov/tesi_ws/build/simulation_worlds/cmake_install.cmake")
   include("/home/jov/tesi_ws/build/p3dx_control/cmake_install.cmake")
+  include("/home/jov/tesi_ws/build/hector_navigation/hector_path_follower/cmake_install.cmake")
+  include("/home/jov/tesi_ws/build/hector_navigation/hector_exploration_controller/cmake_install.cmake")
+  include("/home/jov/tesi_ws/build/hector_navigation/hector_costmap/cmake_install.cmake")
   include("/home/jov/tesi_ws/build/p3dx_description/cmake_install.cmake")
   include("/home/jov/tesi_ws/build/p3dx_gazebo/cmake_install.cmake")
+  include("/home/jov/tesi_ws/build/hector_navigation/hector_exploration_planner/cmake_install.cmake")
+  include("/home/jov/tesi_ws/build/hector_navigation/hector_exploration_node/cmake_install.cmake")
+  include("/home/jov/tesi_ws/build/multi_robot_scenario/cmake_install.cmake")
 
 endif()
 
