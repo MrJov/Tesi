@@ -1,8 +1,0 @@
-prefix=/home/jov/tesi_ws/devel
-
-Name: nav2d_tutorials
-Description: Description of nav2d_tutorials
-Version: 0.3.2
-Cflags: 
-Libs: -L/home/jov/tesi_ws/devel/lib 
-Requires: 

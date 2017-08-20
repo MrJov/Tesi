@@ -1,8 +1,0 @@
-prefix=/home/jov/tesi_ws/devel
-
-Name: nav2d_msgs
-Description: Description of nav2d_msgs
-Version: 0.3.2
-Cflags: -I/home/jov/tesi_ws/devel/include
-Libs: -L/home/jov/tesi_ws/devel/lib 
-Requires: message_runtime std_msgs sensor_msgs geometry_msgs
