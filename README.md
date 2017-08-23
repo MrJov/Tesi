@@ -27,7 +27,7 @@
 
 ## Launch commands
 * source tesi_ws/devel/setup.bash
-* roslaunch p3dx_gazebo nav2d.launch [world_file]
+* roslaunch p3dx nav2d.launch [world_file:=world_file_full_name]
 In another terminal:
 * rosservice call /StartMapping
 * rosservice call /StartExploration
