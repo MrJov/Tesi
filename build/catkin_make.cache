@@ -1,2 +1,2 @@
-nav2d_files:p3dx_control:p3dx_description:p3dx_gazebo:simulation_worlds
+environments:nav2d_files:p3dx
 -DCATKIN_DEVEL_PREFIX=/home/jov/tesi_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jov/tesi_ws/install -G Unix Makefiles

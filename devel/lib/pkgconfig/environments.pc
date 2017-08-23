@@ -1,0 +1,8 @@
+prefix=/home/jov/tesi_ws/devel
+
+Name: environments
+Description: Description of environments
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jov/tesi_ws/devel/lib 
+Requires: 

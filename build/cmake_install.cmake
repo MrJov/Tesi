@@ -118,10 +118,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/jov/tesi_ws/build/gtest/cmake_install.cmake")
   include("/home/jov/tesi_ws/build/nav2d_files/cmake_install.cmake")
-  include("/home/jov/tesi_ws/build/simulation_worlds/cmake_install.cmake")
-  include("/home/jov/tesi_ws/build/p3dx_control/cmake_install.cmake")
-  include("/home/jov/tesi_ws/build/p3dx_description/cmake_install.cmake")
-  include("/home/jov/tesi_ws/build/p3dx_gazebo/cmake_install.cmake")
+  include("/home/jov/tesi_ws/build/environments/cmake_install.cmake")
+  include("/home/jov/tesi_ws/build/p3dx/cmake_install.cmake")
 
 endif()
 

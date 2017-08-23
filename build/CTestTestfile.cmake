@@ -6,7 +6,5 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
 subdirs(nav2d_files)
-subdirs(simulation_worlds)
-subdirs(p3dx_control)
-subdirs(p3dx_description)
-subdirs(p3dx_gazebo)
+subdirs(environments)
+subdirs(p3dx)
