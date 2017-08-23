@@ -12,20 +12,22 @@
 * sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
 
 ## Install nav2d
-* apt-get install ros-kinetic-nav2d
+* sudo apt-get install ros-kinetic-nav2d
 
 ## Install other utils
 * sudo apt-get install ros-kinetic-joy
 * sudo apt-get install ros-kinetic-robot-state-publisher
 * sudo apt-get install ros-kinetic-map-server
+* sudo apt-get install ros-kinetic-ros-control ros-kinetic-ros-controllers
 
 ## Clone repository
-* sudo apt-get install ros-kinetic-ros-control ros-kinetic-ros-controllers
 * git https://github.com/MrJov/Tesi.git tesi_ws
 * cd tesi_ws
 * catkin_make
 
 ## Launch commands
-* cd tesi_ws
-* source devel/setup.bash
+* source tesi_ws/devel/setup.bash
 * roslaunch p3dx_gazebo nav2d.launch [world_file]
+In another terminal:
+* rosservice call /StartMapping
+* rosservice call /StartExploration

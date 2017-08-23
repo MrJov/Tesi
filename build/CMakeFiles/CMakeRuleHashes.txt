@@ -15,5 +15,3 @@ d4fd5577b04d6f2481a701b7d98050d1 /home/jov/tesi_ws/devel/share/roseus/ros/hector
 7642f61209d5bda1693b356898a0ac63 /home/jov/tesi_ws/devel/share/roseus/ros/hector_elevation_msgs/msg/ElevationGrid.l
 d8f55fd1a9a7938a22c59ed3ec06efe2 /home/jov/tesi_ws/devel/share/roseus/ros/hector_elevation_msgs/msg/ElevationMapMetaData.l
 02f1a8a18534ab48c4af12caf016629b CMakeFiles/clean_test_results
-1ba4b4f821babb29fddfebd52fa4c21a hector_navigation/hector_costmap/CMakeFiles/hector_costmap_gencfg
-b792936c8d4a2c0c7bc8177335e72322 hector_navigation/hector_exploration_planner/CMakeFiles/hector_exploration_planner_gencfg
