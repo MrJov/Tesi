@@ -59,6 +59,7 @@
 	<!-- Start the Navigator to move the robot autonomously -->
 	<node name="Navigator" pkg="nav2d_navigator" type="navigator">
 		<remap from="cmd_vel" to="/r1/cmd_vel"/>
+		<remap from="scan" to="/r1/front_laser/scan"/>
 		<rosparam file="$(find nav2d_files)/param/p3dx_navigator.yaml"/>
 	</node>
 
