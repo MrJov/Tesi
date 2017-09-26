@@ -21,13 +21,25 @@
 * sudo apt-get install ros-kinetic-ros-control ros-kinetic-ros-controllers
 
 ## Clone repository
-* git https://github.com/MrJov/Tesi.git tesi_ws
+* git clone https://github.com/MrJov/Tesi.git tesi_ws
 * cd tesi_ws
 * catkin_make
 
-## Launch commands
+## Run simulations
+
+### Launch scripts
+* cd tesi_ws/start_scripts/
+* ./run_[office|school]_[1|2|3|4][E|F].sh
+#### In another terminal
+* cd tesi_ws/start_scripts/
+* ./start.sh
+#### To save RVIZ map
+* cd tesi_ws/start_scripts/
+* ./save_map.sh [folder]
+
+### Launch commands
 * source tesi_ws/devel/setup.bash
 * roslaunch p3dx nav2d.launch [world_file:=world_file_full_name]
-### In another terminal:
+#### In another terminal:
 * rosservice call /StartMapping
 * rosservice call /StartExploration
