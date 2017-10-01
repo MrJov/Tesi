@@ -31,3 +31,5 @@
 ### In another terminal:
 * rosservice call /StartMapping
 * rosservice call /StartExploration
+
+* If there are problems with a bug regarding nan values reinstall gazebo7 to update it to the latest version.
