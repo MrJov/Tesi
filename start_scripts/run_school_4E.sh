@@ -9,7 +9,10 @@ rm -rf ~/.gazebo/log/*
 roslaunch p3dx nav2d.launch world_file:=school_4_empty.world
 finish() {
 	folder="$(timestamp)"
+<<<<<<< HEAD
 	mkdir ../src/log/School_4E
+=======
+>>>>>>> origin
 	mkdir ../src/log/School_4E/"$folder"
 	cp -Ri ~/.gazebo/log/* ~/tesi_ws/src/log/School_4E/"$folder"
 }

@@ -9,7 +9,10 @@ rm -rf ~/.gazebo/log/*
 roslaunch p3dx nav2d.launch world_file:=office_2_furniture.world
 finish() {
 	folder="$(timestamp)"
+<<<<<<< HEAD
 	mkdir ../src/log/Office_2F
+=======
+>>>>>>> origin
 	mkdir ../src/log/Office_2F/"$folder"
 	cp -Ri ~/.gazebo/log/* ~/tesi_ws/src/log/Office_2F/"$folder"
 }
