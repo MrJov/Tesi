@@ -1,1 +1,5 @@
-src/log/
+# logs folder
+src/log/*
+
+# exception to the rule
+!src/log/.gitkeep 
