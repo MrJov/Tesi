@@ -10,6 +10,6 @@ roslaunch p3dx nav2d.launch world_file:=office_3_empty.world
 finish() {
 	folder="$(timestamp)"
 	mkdir ../src/log/Office_3E/"$folder"
-	cp -Ri ~/.gazebo/log/* ./tesi_ws/src/log/Office_3E/"$folder"
+	cp -Ri ~/.gazebo/log/* ~/tesi_ws/src/log/Office_3E/"$folder"
 }
 trap finish EXIT
