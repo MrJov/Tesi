@@ -10,7 +10,7 @@
 
   <!-- Laser  -->
   <xacro:include filename="$(find p3dx)/xacro/laser/hokuyo.xacro"/>
-  <xacro:laser name="front_laser" parent="chassis" xyz="0.16 0 0.1" rpy="0 0 0" meshes="package://gazebo_plugins/test/multi_robot_scenario/meshes/laser"/>
+  <xacro:laser name="front_laser" parent="chassis" xyz="0.16 0 0.08" rpy="0 0 0" meshes="package://gazebo_plugins/test/multi_robot_scenario/meshes/laser"/>
 
 
   <!-- GPU Laser
