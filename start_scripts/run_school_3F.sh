@@ -11,6 +11,6 @@ finish() {
 	folder="$(timestamp)"
 	mkdir ../src/log/School_3F
 	mkdir ../src/log/School_3F/"$folder"
-	cp -Ri ~/.gazebo/log/* ./tesi_ws/src/log/School_3F/"$folder"
+	cp -Ri ~/.gazebo/log/* ~/tesi_ws/src/log/School_3F/"$folder"
 }
 trap finish EXIT
